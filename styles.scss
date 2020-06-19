@@ -1,0 +1,37 @@
+$font-stack:    sans-serif;
+$primary-color: Gold;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+
+  li { display: block;
+  padding: 10px 120px;
+    text-decoration: underline; }
+
+  a {
+    display: inline-block;
+    
+  }
+
+.message {  
+  border: 1px solid #ccc;
+  background: orange;  
+  padding: 10px;  
+  color: #333;  
+}  
+.success {  
+  @extend .message;  
+  background: green;  
+}  
+.error {  
+  @extend .message;  
+  background: red;  
+}  
+.warning {  
+  @extend .message;  
+  background: yellow;  
+}  

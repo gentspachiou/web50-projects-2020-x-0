@@ -1,0 +1,28 @@
+body {
+  font: 100% sans-serif;
+  color: Gold; }
+
+li {
+  display: block;
+  padding: 10px 120px;
+  text-decoration: underline; }
+
+a {
+  display: inline-block; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  background: orange;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  background: green; }
+
+.error {
+  background: red; }
+
+.warning {
+  background: yellow; }
+
+/*# sourceMappingURL=styles.css.map */

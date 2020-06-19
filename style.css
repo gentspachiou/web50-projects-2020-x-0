@@ -1,0 +1,25 @@
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: black;
+  background-image: url("imageback.jpg")
+
+}
+
+p {
+  color: green;
+}
+
+#pmargin {
+  border: 1px solid powderblue;
+  margin: 50px;
+  color: gold;
+}
+
+p.important {
+    color: blue;
+    background-image: url("imageback.jpg")
+}
